@@ -2,7 +2,15 @@ body{
     margin: 0;
     user-select: none;
 }
-label{
+.center{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.auto label{
     font-size: 25px;
     font-weight: bold;
     font-family: arial;
@@ -14,13 +22,14 @@ label{
     cursor: pointer;
     z-index: 1;
 }
-input[type="button"], input[type="submit"], input[type="file"]{
+.auto input[type="button"], input[type="submit"], input[type="file"]{
     display: none;
 }
-input[type="text"]{
+.auto input[type="text"]{
     height: 30px;
     font-size: 25px;
     font-family: arial;
     border: none;
+    background-color: rgb(239, 239, 239);
     outline: none;
 }
