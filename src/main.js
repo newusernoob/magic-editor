@@ -9,10 +9,8 @@ let home = `
 let projects = `
 <div class="auto">
     <div class="center">
-        <div class="itens">
-            
-        </div>
+        
     </div>
 </div>
 `
-document.querySelector('#app').innerHTML = home
+document.querySelector('#app').innerHTML = home;

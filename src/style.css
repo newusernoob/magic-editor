@@ -10,6 +10,9 @@ body{
     justify-content: center;
     align-content: center;
 }
+.itens{
+    height: 75%;
+}
 .auto label{
     font-size: 25px;
     font-weight: bold;
