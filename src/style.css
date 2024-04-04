@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    user-select: none;
+}
+label{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+    color: rgb(75, 75, 75);
+    background-color: rgb(239, 239, 239);
+    padding-inline: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+input[type="button"], input[type="submit"], input[type="file"]{
+    display: none;
+}
+input[type="text"]{
+    height: 30px;
+    font-size: 25px;
+    font-family: arial;
+    border: none;
+    outline: none;
+}
