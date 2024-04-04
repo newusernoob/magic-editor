@@ -36,3 +36,7 @@ body{
     background-color: rgb(239, 239, 239);
     outline: none;
 }
+.auto img{
+    height: 100%;
+    width: 100%;
+}
