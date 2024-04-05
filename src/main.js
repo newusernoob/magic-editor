@@ -12,6 +12,11 @@ const projects = `
         <label for="i1"><img src="img/icon.png"></img></label>
         <input type="button" id="i1">
     </div>
+    <div class="box">
+        <div class="center">
+            <input type="text" id="i2">
+        </div>
+    </div>
 </div>
 `
 const editor = `
@@ -19,4 +24,4 @@ const editor = `
     
 </div>
 `
-document.querySelector('#app').innerHTML = home;
+document.querySelector('#app').innerHTML = projects;

@@ -10,8 +10,12 @@ body{
     justify-content: center;
     align-content: center;
 }
-.itens{
-    height: 75%;
+.box {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb('200, 200, 200');
 }
 .auto label{
     font-size: 25px;
