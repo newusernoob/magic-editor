@@ -1,7 +1,7 @@
 const home = `
 <div class="auto">
     <div class="center">
-        <label for="i1">meus projetos</label>
+        <label for="i1" onclick="page(projects)">meus projetos</label>
         <input type="button" id="i1">
         <label for=""></label>
         <input id=">
@@ -11,10 +11,14 @@ const home = `
 const projects = `
 <div class="auto">
     <div class="center">
-        <label for="i1"" style="font-size:75px">+</label>
+        <label for="i1"" style="font-size:75px" 
+        onclick="
+            page(projects);
+            document.querySelector('#box').style.opacity = 0;
+        ">+</label>
         <input type="button" id="i1">
     </div>
-    <div class="box">
+    <div class="box" id="box">
         <div class="center">
             <input type="text" id="i2">
         </div>
@@ -26,13 +30,9 @@ const editor = `
     
 </div>
 `
-document.querySelector('#app').innerHTML = home;
-function h(){
-    document.querySelector('#app').innerHTML = home;
+
+function page(part){
+    document.querySelector('#app').innerHTML = part;
 }
-function p(){
-    document.querySelector('#app').innerHTML = projects;
-}
-function e(){
-    document.querySelector('#app').innerHTML = editor;
-}
+
+page(home);
