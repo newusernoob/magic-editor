@@ -10,6 +10,11 @@ body{
     justify-content: center;
     align-content: center;
 }
+.box{
+    height: 50px;
+    width: 50px;
+    font-size: 45px;
+}
 .auto content{
     height: 500px;
     width: 500px;
@@ -27,6 +32,10 @@ body{
     border-radius: 10px;
     cursor: pointer;
     z-index: 1;
+}
+.boxes label{
+    height: 50px;
+    width: 50px;
 }
 .auto input[type="button"] input[type="submit"] input[type="file"]{
     display: none;
