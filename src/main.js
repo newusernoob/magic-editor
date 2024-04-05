@@ -1,4 +1,4 @@
-let home = `
+const home = `
 <div class="auto">
     <div class="center">
         <label for="i1">botão</label>
@@ -6,12 +6,17 @@ let home = `
     </div>
 </div>
 `
-let projects = `
+const projects = `
 <div class="auto">
     <div class="center">
         <label for="i1"><img src="img/icon.png"></img></label>
         <input type="button" id="i1">
     </div>
+</div>
+`
+const editor = `
+<div>
+    
 </div>
 `
 document.querySelector('#app').innerHTML = home;
