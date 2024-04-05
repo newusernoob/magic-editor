@@ -29,7 +29,7 @@ body{
     cursor: pointer;
     z-index: 1;
 }
-.auto input[type="button"], input[type="submit"], input[type="file"]{
+.auto input[type="button"] input[type="submit"] input[type="file"]{
     display: none;
 }
 .auto input[type="text"]{
