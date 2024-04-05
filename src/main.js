@@ -26,4 +26,13 @@ const editor = `
     
 </div>
 `
-document.querySelector('#app').innerHTML = projects;
+document.querySelector('#app').innerHTML = home;
+function h(){
+    document.querySelector('#app').innerHTML = home;
+}
+function p(){
+    document.querySelector('#app').innerHTML = projects;
+}
+function e(){
+    document.querySelector('#app').innerHTML = editor;
+}
