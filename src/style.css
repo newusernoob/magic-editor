@@ -10,12 +10,11 @@ body{
     justify-content: center;
     align-content: center;
 }
-.box {
-    position: absolute;
+.auto content{
     height: 500px;
     width: 500px;
+    background: rgb(200, 200, 200);
     border-radius: 10px;
-    background-color: rgb('200, 200, 200');
 }
 .auto label{
     font-size: 25px;
